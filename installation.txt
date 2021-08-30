@@ -1,0 +1,28 @@
+d:
+mkdir vagrant
+mkdir vm1 vm2
+vagrant init hashicorp/bionic64
+cd vm1
+vagrant up
+cd vm2 vagrant up
+(vm1)vagrant ssh
+ifconfig
+logout
+vagrant reload
+1
+vagrant ssh
+ifcong=fig
+192.168.1.106
+vagrant halt
+192.168.1.107
+vagrant up
+vagrant ssh
+ping ip and check in two vms
+===========delete========
+vagrant destroy 
+delete files
+========python installation======
+o Command 1: sudo apt update
+o Command 2: sudo apt install software-properties-common
+o Command 3: sudo add-apt-repository ppa:deadsnakes/ppa
+o Command 4: sudo apt install python3.9
